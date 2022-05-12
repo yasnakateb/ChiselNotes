@@ -1,3 +1,8 @@
+package chapter1
+
+import chisel3._
+import chisel3.util._
+
 class LED extends Module {
     val io = IO(new Bundle {
     val led = Output (UInt (1.W))
@@ -12,7 +17,11 @@ class LED extends Module {
     when( cntReg === CNT_MAX ) {
         // Reset the counter
         cntReg := 0.U
-        blkReg :=  ̃ blkReg
+        blkReg :=  ~blkReg
     }
     io.led := blkReg
+}
+
+object LEDMain extends App {
+  (new chisel3.stage.ChiselStage).emitVerilog(new LED(), Array("--target-dir", "generated"))
 }
