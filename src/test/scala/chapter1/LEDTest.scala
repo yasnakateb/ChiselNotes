@@ -7,7 +7,7 @@ class LEDTest extends AnyFlatSpec with ChiselScalatestTester {
             test(new chapter1.LED) { c =>
                 c.clock.setTimeout(0)
                 var ledStatus = BigInt(-1)
-                println("Start the blinking LED")
+                println("Start: The blinking LED")
                 for (_ <- 0 until 100) {
                     c.clock.step(10000)
                     val ledNow = c.io.led.peek().litValue
@@ -17,7 +17,7 @@ class LEDTest extends AnyFlatSpec with ChiselScalatestTester {
                         ledStatus = ledNow
                     }
                 }
-                println("\nEnd the blinking LED")
+                println("\nEnd: The blinking LED")
             }
         }
 }
