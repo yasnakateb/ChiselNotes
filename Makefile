@@ -25,5 +25,8 @@ counter-test:
 key-value:
 	$(SBT) "runMain chapter2.KeyValueMain"
 
+key-value-test:
+	$(SBT) "testOnly chapter2.KeyValueTest"
+
 clean:
 	git clean -fd
