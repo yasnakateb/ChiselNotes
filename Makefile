@@ -13,5 +13,8 @@ operators-test:
 mux:
 	$(SBT) "runMain chapter2.MultiplexerMain"
 
+mux-test:
+	$(SBT) "testOnly chapter2.MultiplexerTest"
+
 clean:
 	git clean -fd
