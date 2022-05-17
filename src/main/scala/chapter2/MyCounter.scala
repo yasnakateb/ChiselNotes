@@ -1,6 +1,7 @@
 package chapter2
 
 import chisel3._
+import chisel3.util._ 
 
 class MyCounter(n: Int) extends Module {
     val io = IO(new Bundle {
