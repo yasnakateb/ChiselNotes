@@ -28,5 +28,8 @@ key-value:
 key-value-test:
 	$(SBT) "testOnly chapter2.KeyValueTest"
 
+register-file:
+	$(SBT) "runMain chapter2.RegisterFileMain"
+
 clean:
 	git clean -fd
