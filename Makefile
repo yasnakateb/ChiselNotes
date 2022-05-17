@@ -10,6 +10,8 @@ operators:
 operators-test:
 	$(SBT) "testOnly chapter2.OperatorsTest"
 
+mux:
+	$(SBT) "runMain chapter2.MultiplexerMain"
 
 clean:
 	git clean -fd

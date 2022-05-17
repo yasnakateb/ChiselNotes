@@ -1,0 +1,19 @@
+[
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"generated"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~Multiplexer|Multiplexer>io_result",
+    "sources":[
+      "~Multiplexer|Multiplexer>io_sel",
+      "~Multiplexer|Multiplexer>io_in0",
+      "~Multiplexer|Multiplexer>io_in1"
+    ]
+  }
+]
