@@ -37,5 +37,8 @@ register-file-test:
 printf:
 	$(SBT) "runMain chapter3.PrintfMain"
 
+printf-test:
+	$(SBT) "testOnly chapter3.PrintfTest"
+
 clean:
 	git clean -fd
