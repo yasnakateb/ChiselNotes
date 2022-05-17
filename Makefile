@@ -22,5 +22,8 @@ counter:
 counter-test:
 	$(SBT) "testOnly chapter2.MyCounterTest -- -DwriteVcd=1"
 
+key-value:
+	$(SBT) "runMain chapter2.KeyValueMain"
+
 clean:
 	git clean -fd

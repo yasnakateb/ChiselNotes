@@ -2,7 +2,6 @@ package chapter2
 
 import chisel3._
 
-
 class Operators(val w: Int) extends Module {
   val io = IO(new Bundle {
     val in0 = Input(UInt(w.W))
