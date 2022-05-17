@@ -16,5 +16,11 @@ mux:
 mux-test:
 	$(SBT) "testOnly chapter2.MultiplexerTest"
 
+counter:
+	$(SBT) "runMain chapter2.MyCounterMain"
+
+counter-test:
+	$(SBT) "testOnly chapter2.MyCounterTest -- -DwriteVcd=1"
+
 clean:
 	git clean -fd
