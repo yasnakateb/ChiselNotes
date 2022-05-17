@@ -4,8 +4,11 @@ SBT = sbt
 led:
 	$(SBT) "runMain chapter1.LEDMain"
 
-datatypes:
-	$(SBT) "runMain chapter2.data_types.DataTypesMain"
+operators:
+	$(SBT) "runMain chapter2.OperatorsMain"
+
+operators-test:
+	$(SBT) "testOnly chapter2.OperatorsTest"
 
 
 clean:

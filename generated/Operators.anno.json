@@ -9,23 +9,26 @@
   },
   {
     "class":"firrtl.transforms.CombinationalPath",
-    "sink":"~DataTypes|DataTypes>io_and",
+    "sink":"~Operators|Operators>io_mul",
     "sources":[
-      "~DataTypes|DataTypes>io_a"
+      "~Operators|Operators>io_in0",
+      "~Operators|Operators>io_in1"
     ]
   },
   {
     "class":"firrtl.transforms.CombinationalPath",
-    "sink":"~DataTypes|DataTypes>io_div",
+    "sink":"~Operators|Operators>io_add",
     "sources":[
-      "~DataTypes|DataTypes>io_a"
+      "~Operators|Operators>io_in0",
+      "~Operators|Operators>io_in1"
     ]
   },
   {
     "class":"firrtl.transforms.CombinationalPath",
-    "sink":"~DataTypes|DataTypes>io_mul",
+    "sink":"~Operators|Operators>io_and",
     "sources":[
-      "~DataTypes|DataTypes>io_a"
+      "~Operators|Operators>io_in0",
+      "~Operators|Operators>io_in1"
     ]
   }
 ]
