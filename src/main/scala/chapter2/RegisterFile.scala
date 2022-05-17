@@ -7,7 +7,7 @@ class RegisterFile extends Module {
         val src1 = Input(UInt(5.W))
         val src2 = Input(UInt(5.W))
         val src3 = Input(UInt(5.W))
-        val wd = Input(UInt(5.W))
+        val wd = Input(UInt(32.W))
         val write_data = Input(Bool())
         val rd1 = Output(UInt(32.W))
         val rd2 = Output(UInt(32.W))
@@ -17,7 +17,7 @@ class RegisterFile extends Module {
     io.rd1 := registerFile(io.src1)
     io.rd2 := registerFile(io.src2)
     when (io.write_data) { 
-        registerFile(io.src3) := io.wd
+        registerFile(io.src3) := io.wd 
     } 
 }
 
