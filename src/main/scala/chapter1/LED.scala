@@ -5,8 +5,9 @@ import chisel3.util._
 
 class LED extends Module {
     val io = IO(new Bundle {
-    val led = Output (UInt (1.W))
+        val led = Output (UInt (1.W))
     })
+
     //  A counter to derive timing in the Hz range
     val CNT_MAX = (50000000 / 2 - 1).U
 
@@ -23,5 +24,5 @@ class LED extends Module {
 }
 
 object LEDMain extends App {
-  (new chisel3.stage.ChiselStage).emitVerilog(new LED(), Array("--target-dir", "generated"))
+    (new chisel3.stage.ChiselStage).emitVerilog(new LED(), Array("--target-dir", "generated"))
 }

@@ -24,6 +24,6 @@ class KeyValue extends Module {
 
 // Generate the Verilog code
 object KeyValueMain extends App {
-  println("Generating the hardware")
-  (new chisel3.stage.ChiselStage).emitVerilog(new KeyValue(), Array("--target-dir", "generated"))
+    println("Generating the hardware")
+    (new chisel3.stage.ChiselStage).emitVerilog(new KeyValue(), Array("--target-dir", "generated"))
 }
