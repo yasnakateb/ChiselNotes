@@ -34,5 +34,8 @@ register-file:
 register-file-test:
 	$(SBT) "testOnly chapter2.RegisterFileTest"
 
+printf:
+	$(SBT) "runMain chapter3.PrintfMain"
+
 clean:
 	git clean -fd
