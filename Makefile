@@ -52,5 +52,12 @@ register:
 register-test:
 	$(SBT) "testOnly chapter4.RegisterTest"
 
+count100:
+	$(SBT) "runMain chapter4.Count100Main"
+
+count100-test:
+	$(SBT) "testOnly chapter4.Count100Test -- -DwriteVcd=1"
+
+
 clean:
 	git clean -fd
