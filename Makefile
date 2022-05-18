@@ -40,5 +40,17 @@ printf:
 printf-test:
 	$(SBT) "testOnly chapter3.PrintfTest"
 
+alu:
+	$(SBT) "runMain chapter4.ALUMain"
+
+alu-test:
+	$(SBT) "testOnly chapter4.ALUTest"
+
+register:
+	$(SBT) "runMain chapter4.RegisterMain"
+
+register-test:
+	$(SBT) "testOnly chapter4.RegisterTest"
+
 clean:
 	git clean -fd
