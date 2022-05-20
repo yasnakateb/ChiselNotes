@@ -58,6 +58,8 @@ count100:
 count100-test:
 	$(SBT) "testOnly chapter4.Count100Test -- -DwriteVcd=1"
 
+module-c:
+	$(SBT) "runMain chapter4.ModuleCMain"
 
 clean:
 	git clean -fd
