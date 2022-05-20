@@ -4,3 +4,4 @@ project/
 test_run_dir/
 .DS_Store
 src/.metals/
+.metals/
