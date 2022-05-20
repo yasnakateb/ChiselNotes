@@ -61,5 +61,8 @@ count100-test:
 module-c:
 	$(SBT) "runMain chapter4.ModuleCMain"
 
+decoder:
+	$(SBT) "runMain chapter5.DecoderMain"
+
 clean:
 	git clean -fd

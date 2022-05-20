@@ -83,3 +83,19 @@ May 20, 2022 9:41:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellat
 WARNING: Unmatched cancel notification for request id 47
 2022.05.20 21:42:39 WARN  no build target for: /Users/zizmac/WorkSpace/Madrid/ChiselNotes/src/main/scala/chapter4/ModuleC.scala[0m
 2022.05.20 21:45:15 WARN  no build target for: /Users/zizmac/WorkSpace/Madrid/ChiselNotes/src/main/scala/chapter4/ModuleC.scala[0m
+2022.05.20 21:53:54 WARN  no build target for: /Users/zizmac/WorkSpace/Madrid/ChiselNotes/src/main/scala/chapter5/Decoder.scala[0m
+2022.05.20 21:53:54 WARN  no build target for: /Users/zizmac/WorkSpace/Madrid/ChiselNotes/src/main/scala/chapter5/Decoder.scala[0m
+2022.05.20 21:54:01 WARN  no build target for: /Users/zizmac/WorkSpace/Madrid/ChiselNotes/src/main/scala/chapter5/Decoder.scala[0m
+2022.05.20 21:54:29 WARN  no build target for: /Users/zizmac/WorkSpace/Madrid/ChiselNotes/src/main/scala/chapter5/Decoder.scala[0m
+2022.05.20 21:55:05 WARN  no build target for: /Users/zizmac/WorkSpace/Madrid/ChiselNotes/src/main/scala/chapter5/Decoder.scala[0m
+2022.05.20 21:55:45 WARN  no build target for: /Users/zizmac/WorkSpace/Madrid/ChiselNotes/src/main/scala/chapter5/Decoder.scala[0m
+2022.05.20 21:55:48 WARN  no build target for: /Users/zizmac/WorkSpace/Madrid/ChiselNotes/src/main/scala/chapter5/Decoder.scala[0m
+2022.05.20 21:56:25 WARN  no build target for: /Users/zizmac/WorkSpace/Madrid/ChiselNotes/src/main/scala/chapter4/ModuleC.scala[0m
+May 20, 2022 9:56:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 310
+2022.05.20 21:56:58 WARN  no build target for: /Users/zizmac/WorkSpace/Madrid/ChiselNotes/src/main/scala/chapter5/Decoder.scala[0m
+2022.05.20 21:57:00 WARN  no build target for: /Users/zizmac/WorkSpace/Madrid/ChiselNotes/src/main/scala/chapter5/Decoder.scala[0m
+2022.05.20 21:57:18 WARN  no build target for: /Users/zizmac/WorkSpace/Madrid/ChiselNotes/src/main/scala/chapter5/Decoder.scala[0m
+2022.05.20 21:57:23 WARN  no build target for: /Users/zizmac/WorkSpace/Madrid/ChiselNotes/src/main/scala/chapter4/ModuleC.scala[0m
+2022.05.20 21:57:24 WARN  no build target for: /Users/zizmac/WorkSpace/Madrid/ChiselNotes/src/main/scala/chapter5/Decoder.scala[0m
+2022.05.20 21:58:51 WARN  no build target for: /Users/zizmac/WorkSpace/Madrid/ChiselNotes/src/main/scala/chapter5/Decoder.scala[0m
