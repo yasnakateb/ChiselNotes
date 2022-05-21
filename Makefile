@@ -64,5 +64,11 @@ module-c:
 decoder:
 	$(SBT) "runMain chapter5.DecoderMain"
 
+pwm:
+	$(SBT) "runMain chapter6.PWMMain"
+
+pwm-test:
+	$(SBT) "testOnly chapter6.PWMTest  -- -DwriteVcd=1"
+
 clean:
 	git clean -fd
