@@ -70,5 +70,17 @@ pwm:
 pwm-test:
 	$(SBT) "testOnly chapter6.PWMTest  -- -DwriteVcd=1"
 
+debouncing-circuit:
+	$(SBT) "runMain chapter7.DebouncingCircuitMain"
+
+debouncing-circuit-test:
+	$(SBT) "testOnly chapter7.DebouncingCircuitTest  -- -DwriteVcd=1"
+
+simple-fsm:
+	$(SBT) "runMain chapter8.SimpleFSMMain"
+
+simple-fsm-test:
+	$(SBT) "testOnly chapter8.SimpleFSMTest  -- -DwriteVcd=1"
+
 clean:
 	git clean -fd
